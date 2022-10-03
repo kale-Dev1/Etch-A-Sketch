@@ -1,0 +1,19 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    text-align: center;
+    background-color: aliceblue;
+   
+}
+.container{
+    margin-left: 25%;
+    min-height: 50vh;
+    max-width: 50vh;
+    border: solid;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows:repeat(16, 1fr) ;
+    
+}
