@@ -5,7 +5,7 @@ let number = 256;
 // Loop to append divs to the container
 for(i=0; i<number; i++){
     let div = document.createElement('div');
-    div.addEventListener('mouseenter', backGround);
+    div.addEventListener('mousemove', backGround);
     // div.style.backgroundColor =randomRGB();
     container.appendChild(div);
 }
